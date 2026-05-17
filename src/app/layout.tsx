@@ -45,6 +45,7 @@ export const metadata: Metadata = {
     languages: { en: "/", "zh-CN": "/", "x-default": "/" },
   },
   openGraph: {
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "Steam Civilization · 蒸汽文明 — The World Never Escaped Steam" }],
     title: TITLE_EN,
     description:
       "Modernity never escaped steam. It miniaturized it, electrified it, computerized it — but heat still becomes motion, motion still becomes civilization. A thermodynamic atlas.",
@@ -55,6 +56,7 @@ export const metadata: Metadata = {
     alternateLocale: ["zh_CN"],
   },
   twitter: {
+    images: ["/twitter-image.png"],
     card: "summary_large_image",
     title: TITLE_EN,
     description:
